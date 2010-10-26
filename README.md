@@ -10,5 +10,7 @@ Now, more than one year later, I've became a better programmer and learned many 
 
 So here I am. I'm going to re-learn Python, following Zed Shaw's _Learn Python The Hard Way_.
 
+
 Tianyi Cui
+
 Oct 26 2010
