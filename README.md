@@ -1,4 +1,4 @@
-I first learned Python in 2006 during high school. Unfortunately, I chosed the 'easiest' way learning it. I was just quickly scanning a Python beginner's book and enjoying the thoughts like "wow Python is so convinient and has so much more features than C and C++", without bothering to write a single line of Python code.
+I first learned Python in 2006 during high school. Unfortunately, I chose the 'easiest' way learning it. I was just quickly scanning a Python beginner's book and enjoying the thoughts like "wow Python is so convenient and has so much more features than C and C++", without bothering to write a single line of Python code.
 
 Of course I learned completely nothing about Python at that time, perhaps except the idea "Python seems like a good idea".
 
