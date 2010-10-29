@@ -1,0 +1,65 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ex25</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>ex25</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/tianyi/Projects/my_python_hard_way/ex25.py">/Users/tianyi/Projects/my_python_hard_way/ex25.py</a></font></td></tr></table>
+    <p><tt>This&nbsp;is&nbsp;the&nbsp;"ex25"&nbsp;module.<br>
+&nbsp;<br>
+Use&nbsp;`python&nbsp;ex25.py`&nbsp;to&nbsp;run&nbsp;doctests.<br>
+Use&nbsp;`pydoc&nbsp;-w&nbsp;./ex25.py`&nbsp;to&nbsp;generate&nbsp;HTML&nbsp;documentation.<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;import&nbsp;ex25<br>
+&gt;&gt;&gt;&nbsp;sentence&nbsp;=&nbsp;"All&nbsp;good&nbsp;things&nbsp;come&nbsp;to&nbsp;those&nbsp;who&nbsp;wait."<br>
+&gt;&gt;&gt;&nbsp;words&nbsp;=&nbsp;ex25.<a href="#-break_words">break_words</a>(sentence)<br>
+&gt;&gt;&gt;&nbsp;words<br>
+['All',&nbsp;'good',&nbsp;'things',&nbsp;'come',&nbsp;'to',&nbsp;'those',&nbsp;'who',&nbsp;'wait.']<br>
+&gt;&gt;&gt;&nbsp;sorted_words&nbsp;=&nbsp;ex25.<a href="#-sort_words">sort_words</a>(words)<br>
+&gt;&gt;&gt;&nbsp;sorted_words<br>
+['All',&nbsp;'come',&nbsp;'good',&nbsp;'things',&nbsp;'those',&nbsp;'to',&nbsp;'wait.',&nbsp;'who']<br>
+&gt;&gt;&gt;&nbsp;ex25.<a href="#-print_first_word">print_first_word</a>(words)<br>
+All<br>
+&gt;&gt;&gt;&nbsp;ex25.<a href="#-print_last_word">print_last_word</a>(words)<br>
+wait.<br>
+&gt;&gt;&gt;&nbsp;wrods<br>
+Traceback&nbsp;(most&nbsp;recent&nbsp;call&nbsp;last):<br>
+&nbsp;&nbsp;File&nbsp;"&lt;stdin&gt;",&nbsp;line&nbsp;1,&nbsp;in&nbsp;&lt;module&gt;<br>
+NameError:&nbsp;name&nbsp;'wrods'&nbsp;is&nbsp;not&nbsp;defined<br>
+&gt;&gt;&gt;&nbsp;words<br>
+['good',&nbsp;'things',&nbsp;'come',&nbsp;'to',&nbsp;'those',&nbsp;'who']<br>
+&gt;&gt;&gt;&nbsp;ex25.<a href="#-print_first_word">print_first_word</a>(sorted_words)<br>
+All<br>
+&gt;&gt;&gt;&nbsp;ex25.<a href="#-print_last_word">print_last_word</a>(sorted_words)<br>
+who<br>
+&gt;&gt;&gt;&nbsp;sorted_words<br>
+['come',&nbsp;'good',&nbsp;'things',&nbsp;'those',&nbsp;'to',&nbsp;'wait.']<br>
+&gt;&gt;&gt;&nbsp;sorted_words&nbsp;=&nbsp;ex25.<a href="#-sort_sentence">sort_sentence</a>(sentence)<br>
+&gt;&gt;&gt;&nbsp;sorted_words<br>
+['All',&nbsp;'come',&nbsp;'good',&nbsp;'things',&nbsp;'those',&nbsp;'to',&nbsp;'wait.',&nbsp;'who']<br>
+&gt;&gt;&gt;&nbsp;ex25.<a href="#-print_first_and_last">print_first_and_last</a>(sentence)<br>
+All<br>
+wait.<br>
+&gt;&gt;&gt;&nbsp;ex25.<a href="#-print_first_and_last_sorted">print_first_and_last_sorted</a>(sentence)<br>
+All<br>
+who</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-break_words"><strong>break_words</strong></a>(stuff)</dt><dd><tt>This&nbsp;function&nbsp;will&nbsp;break&nbsp;up&nbsp;words&nbsp;for&nbsp;us.</tt></dd></dl>
+ <dl><dt><a name="-print_first_and_last"><strong>print_first_and_last</strong></a>(sentence)</dt><dd><tt>Prints&nbsp;the&nbsp;first&nbsp;and&nbsp;last&nbsp;words&nbsp;of&nbsp;the&nbsp;sentence.</tt></dd></dl>
+ <dl><dt><a name="-print_first_and_last_sorted"><strong>print_first_and_last_sorted</strong></a>(sentence)</dt><dd><tt>Sorts&nbsp;the&nbsp;words&nbsp;then&nbsp;prints&nbsp;the&nbsp;first&nbsp;and&nbsp;last&nbsp;one.</tt></dd></dl>
+ <dl><dt><a name="-print_first_word"><strong>print_first_word</strong></a>(words)</dt><dd><tt>Prints&nbsp;the&nbsp;first&nbsp;word&nbsp;after&nbsp;popping&nbsp;it&nbsp;off.</tt></dd></dl>
+ <dl><dt><a name="-print_last_word"><strong>print_last_word</strong></a>(words)</dt><dd><tt>Takes&nbsp;in&nbsp;a&nbsp;full&nbsp;sentence&nbsp;and&nbsp;returns&nbsp;the&nbsp;sroted&nbsp;words.</tt></dd></dl>
+ <dl><dt><a name="-sort_sentence"><strong>sort_sentence</strong></a>(sentence)</dt><dd><tt>Takes&nbsp;in&nbsp;a&nbsp;full&nbsp;sentence&nbsp;and&nbsp;returns&nbsp;the&nbsp;sorted&nbsp;words.</tt></dd></dl>
+ <dl><dt><a name="-sort_words"><strong>sort_words</strong></a>(words)</dt><dd><tt>Sorts&nbsp;the&nbsp;words.</tt></dd></dl>
+</td></tr></table>
+</body></html>
